@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Template Kindle</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+ 
+  <header id="mu-header" role="banner">
+    <div class="container">
+      <nav class="navbar navbar-default mu-navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a
+              class="navbar-brand"
+              href="https://www.free-css.com/free-css-templates"
+            >
+              <i class="fa fa-book" aria-hidden="true"></i> Kindle
+            </a>
+          </div>
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav mu-menu navbar-right">
+              <li><a href="https://www.free-css.com/free-css-templates">HOME</a></li>
+              <li><a href="#mu-book-overview">OVERVIEW</a></li>
+              <li><a href="#mu-author">AUTHOR</a></li>
+              <li><a href="#mu-pricing">PRICE</a></li>
+              <li><a href="#mu-testimonials">TESTIMONIALS</a></li>
+              <li><a href="#mu-contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="mu-hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-sm-push-6">
+          <div class="mu-hero-right">
+            <img width="650px" src="assets/images/GettyImages-1046914166.jpg" alt="website template image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-sm-pull-6">
+          <div class="mu-hero-left">
+            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio obcaecati ipsam expedita. Totam mollitia, obcaecati deleniti ducimus alias aperiam laboriosam asperiores libero? Placeat assumenda facere harum non, dolore sequi ullam.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              saepe, recusandae quidem nulla! Eveniet explicabo perferendis
+              aut, ab quos omnis labore laboriosam quisquam hic deserunt ipsum
+              maxime aspernatur velit impedit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="app">
+    
+    <br />
+    <h1 class="google">Google Books</h1>
+    <select id="filterSelect">
+      <option value="all">all</option>
+      <option value="partial">Partial</option>
+      <option value="full">Full</option>
+    </select>
+    <select id="sortSelect">
+      <option value="relevance">Relevance</option>
+      <option value="newest">Newest</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="book name" />
+    <button onclick="searchBooks()">search</button>
+    
+  </div>
+
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <div id="results" class="container"></div>
+
+  <script src="assets/js/script.js"></script>
+  <script>
+    
+  </script>
+</body>
+</html>
